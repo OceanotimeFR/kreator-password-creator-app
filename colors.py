@@ -1,0 +1,5 @@
+darkGrey = "#1b1b1b"
+Green = "#16b132"
+darkGreen = "#106620"
+White = "#ffffff"
+Black = "#000000"
