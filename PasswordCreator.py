@@ -18,7 +18,7 @@ class PasswordCreator():
                 asciiRandInt:int = randint(*self.asciiCharRange)
                 randomChar:int = chr(asciiRandInt)
                 self.pwdCharList.append(randomChar)
-            self.pwd:str = "".join(self.pwdCharList)
+            self.pwd:str = " ".join(self.pwdCharList)
             return 0
         return 1
 

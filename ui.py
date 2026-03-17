@@ -14,6 +14,7 @@ class UI():
 
 
     def winCustom(self):
+        self.root.iconbitmap("kreator_icon.ico")
         self.root.title("KreatoR - Password Generator")
         self.root.geometry(f"{self.winX}x{self.winY}")
         
